@@ -6,4 +6,8 @@ console.log("With Added Price:",Prices)
 let removedItem=Prices.shift();//removing first price
 console.log("Removed Price:",removedItem);
 console.log("Updated Prices:",Prices)
+//Task 2: Modifying Customer Orders
+let Orders=[101,102,103,104,105]
+orders[2]=orders[2]+5
+
 
