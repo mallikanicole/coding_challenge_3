@@ -13,6 +13,16 @@ Orders[2]=103+5;//adding 5 to order 3
 console.log("Orders Updated:",Orders)
 let totalOrders=Orders.reduce((sum,amount)=>sum+amount,0);//sum of orders
 console.log("Total Orders:",totalOrders)
+//Task 3: Employee Performance Tracking Scenario
+let employee= {
+    name:"Lilac Silver",
+    role:"Sales",
+    performanceScore:57,
+    isActive:true
+}//declare employee
+console.log("Employee:",employee);
+employee.performanceScore=97;//updating score
+console.log("Updated Employee:",employee);
 
 
 
