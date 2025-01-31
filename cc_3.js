@@ -38,7 +38,7 @@ let feedback=[
     {customerName:"George Fayne",feedbackText:"Hard to use.",rating:4}
 ];//creating feedback list
 console.log("Feedback:",feedback)
-feedback.push({customerName:"Ned Nickerson",feedbackText:"Broke easily",rating:2})
+feedback.push({customerName:"Ned Nickerson",feedbackText:"Broke easily",rating:2});//adding new customer feedback
 console.log("Updated Feedback:",feedback)
 
 
