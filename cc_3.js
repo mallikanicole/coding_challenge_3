@@ -40,6 +40,12 @@ let feedback=[
 console.log("Feedback:",feedback)
 feedback.push({customerName:"Ned Nickerson",feedbackText:"Broke easily",rating:2});//adding new customer feedback
 console.log("Updated Feedback:",feedback)
+//Task 5:Inventory Management System Scenario
+let Inventory={itemName:"Tennis Bracelet",stockCount:233,price:100}
+console.log("Inventory:",Inventory)
+const calculateTotalValue=(stockCount*price)
+
+
 
 
 
