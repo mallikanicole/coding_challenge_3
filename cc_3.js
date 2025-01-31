@@ -43,7 +43,10 @@ console.log("Updated Feedback:",feedback)
 //Task 5:Inventory Management System Scenario
 let Inventory={itemName:"Tennis Bracelet",stockCount:233,price:100}
 console.log("Inventory:",Inventory)
-const calculateTotalValue=(stockCount*price)
+const stockCount=233
+const price=100
+const calculateTotalValue=(stockCount*price);//calculate total value of inventory
+console.log("Total Value:",calculateTotalValue)
 
 
 
