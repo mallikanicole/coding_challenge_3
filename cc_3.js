@@ -33,11 +33,13 @@ if (employee.performanceScore>80) {
 console.log("Update 2 Employee:",employee)
 //Task 4:Customer Feedback Records Scenario
 let feedback=[
-    {customerName:"Nancy Drew",feedbackText:"Wonderful product.",rating:9/10},
-    {customerName:"Bess Marvin",feedbackText:"Will purchase again.",rating:8/10},
-    {customerName:"George Fayne",feedbackText:"Hard to use.",rating:4/10}
+    {customerName:"Nancy Drew",feedbackText:"Wonderful product.",rating:9},
+    {customerName:"Bess Marvin",feedbackText:"Will purchase again.",rating:8},
+    {customerName:"George Fayne",feedbackText:"Hard to use.",rating:4}
 ];//creating feedback list
 console.log("Feedback:",feedback)
+feedback.push({customerName:"Ned Nickerson",feedbackText:"Broke easily",rating:2})
+console.log("Updated Feedback:",feedback)
 
 
 
