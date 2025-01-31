@@ -22,7 +22,9 @@ let employee= {
 }//declare employee
 console.log("Employee:",employee);
 employee.performanceScore=97;//updating score
-console.log("Updated Employee:",employee);
+console.log("Update 1 Employee:",employee);
+employee.promotionEligible=true
+console.log("Update 2 Employee:",employee)
 
 
 
