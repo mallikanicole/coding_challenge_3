@@ -23,7 +23,13 @@ let employee= {
 console.log("Employee:",employee);
 employee.performanceScore=97;//updating score
 console.log("Update 1 Employee:",employee);
-employee.promotionEligible=true
+employee.promotionEligible=true;
+if (employee.performanceScore>80) {
+    console.log("Promotion Eligible=True")
+    
+} else {
+    console.log("Promotion Eligible=False")
+};//adding promotion eligibility
 console.log("Update 2 Employee:",employee)
 
 
