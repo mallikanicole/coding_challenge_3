@@ -8,6 +8,8 @@ console.log("Removed Price:",removedItem);
 console.log("Updated Prices:",Prices)
 //Task 2: Modifying Customer Orders
 let Orders=[101,102,103,104,105]
-orders[2]=orders[2]+5
+console.log("Orders:",Orders)
+Orders[2]=Orders[2]+5
+console.log("Orders Updated:",Orders)
 
 
